@@ -6,9 +6,9 @@ public class APLine
 
   public APLine(int a, int b, int c)
   {
-    a1 = a;
-    b1 = b;
-    b2 = c;
+    this.a1 = a;
+    this.b1 = b;
+   this.b2 = c;
   }
   
   public double getSlope()
